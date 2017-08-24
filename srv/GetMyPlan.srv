@@ -1,0 +1,20 @@
+# Start pose
+geometry_msgs/PoseStamped start
+
+# Goal pose
+geometry_msgs/PoseStamped goal
+
+bool removing
+
+#Car obstacle pose
+geometry_msgs/PoseStamped carobst
+
+#Forbidden cells
+gridData forbiddenCells
+
+geometry_msgs/PoseStamped[] vehWithFailures
+
+int32[] wrongX
+int32[] wrongY
+---
+planData plan

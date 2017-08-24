@@ -1,0 +1,7 @@
+string vehicleName
+int32 priority
+int32 req_pz_seq
+
+string message
+---
+bool removalStarted
